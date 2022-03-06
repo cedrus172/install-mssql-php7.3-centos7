@@ -1,4 +1,4 @@
-curl https://packages.microsoft.com/config/rhel/7/prod.repo > /etc/yum.repos.d/mssql-release.repo
+curl https://packages.microsoft.com/config/rhel/7/prod.repo > /etc/yum.repos.d/mssql-release.repo<br>
 yum clean all
 yum update -y
 ACCEPT_EULA=Y yum install -y msodbcsql mssql-tools unixODBC-devel
