@@ -7,7 +7,7 @@ wget https://pecl.php.net/get/sqlsrv-5.8.1.tgz
 tar -zxvf sqlsrv-5.8.1.tgz
 cd sqlsrv-5.8.1
 /www/server/php/73/bin/phpize
-./configure --with-php-config=/www/server/php/74/bin/php-config
+./configure --with-php-config=/www/server/php/73/bin/php-config
 make
 make install
 
